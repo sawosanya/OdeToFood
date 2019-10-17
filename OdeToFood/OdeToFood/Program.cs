@@ -18,7 +18,7 @@ namespace OdeToFood
         public static void Main(string[] args)
         {
             var host = CreateWebHostBuilder(args).Build();
-
+            //automatically migrate database; creates or update database if needed
             MigrateDatabase(host);
                 
             host.Run();
