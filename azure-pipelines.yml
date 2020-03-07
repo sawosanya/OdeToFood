@@ -5,6 +5,7 @@
 
 trigger:
 - master
+- aspnet21
 
 pool:
   vmImage: 'windows-latest'
